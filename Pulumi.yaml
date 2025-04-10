@@ -1,0 +1,3 @@
+name: pulumi-s3-sup
+runtime: python
+description: A project that creates an S3 bucket using Pulumi.

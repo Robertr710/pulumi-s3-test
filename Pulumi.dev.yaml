@@ -1,0 +1,7 @@
+name: pulumi-s3
+runtime: python
+description: S3 Bucket in the dev environment
+config:
+  aws:region: us-west-2
+  myproject:s3BucketName: my-dev-bucket
+  myproject:bucketTags: '{"Environment": "dev", "Project": "Pulumi"}'

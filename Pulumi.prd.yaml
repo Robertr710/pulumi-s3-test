@@ -1,0 +1,7 @@
+name: pulumi-s3
+runtime: python
+description: S3 Bucket in the prd environment
+config:
+  aws:region: us-west-2
+  myproject:s3BucketName: my-prd-bucket
+  myproject:bucketTags: '{"Environment": "Prd", "Project": "Pulumi"}'
